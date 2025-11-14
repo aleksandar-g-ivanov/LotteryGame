@@ -4,7 +4,6 @@ using Lottery.Lib.Prizing;
 using Lottery.Lib.Prizing.Enums;
 using Lottery.Lib.Tickets;
 using Moq;
-using System.Net.Sockets;
 
 namespace Lottery.Tests
 {
