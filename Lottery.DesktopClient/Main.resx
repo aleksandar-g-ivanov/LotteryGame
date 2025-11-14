@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="rtbAbout.Text" xml:space="preserve">
+    <value>SIMPLIFIED LOTTERY GAME
+
+1) Problem
+   You will have to build up a simplified lottery game.
+   The solution should be a console application written in C#.
+
+2) Lottery Game Mechanics
+   A lottery is a gambling competition in which people obtain numbered tickets,
+   each of which has the chance of winning a prize. At a set time, the winners
+   are randomly drawn from a pool holding all purchased tickets.
+
+3) Ticket Purchase
+   • The user (Player 1) is prompted via the console to purchase their desired
+     number of tickets.
+   • The remaining participants are CPU players, sequentially numbered as Player 2,
+     Player 3, and so on. Their number of tickets is randomly picked.	 
+
+4) Player Limits and Cost 
+   • The total number of players in the lottery game should be between 10 and 15.
+   • All players (human and CPU) are limited to purchasing between 1 and 10 tickets.   
+   • Each player begins with a starting balance of $10.
+   • Tickets are priced at $1 each.
+   
+5) Prize Determination
+   The program should determine the winners by the following rules:
+   • Grand Prize: A single ticket must be awarded a prize equivalent to 50% of the total ticket
+     revenue.
+   • Second Tier: 10% of the tickets must share 30% of the total ticket revenue equally.
+   • Third Tier: 20% of the tickets must share 10% of the total ticket revenue equally.
+     Tickets selected as winners are removed from the subsequent prize drawings to prevent duplicate
+     wins.
+   • The remaining revenue after prize allocation is the house profit.
+     Note: In case the number of winners for a prize tier is not exactly divisible then the closest equal split
+     The program should output a list of the winning players, including the count of their winning tickets
+     is taken, and the remaining amount is added to the house profit.
+	 
+6) Result Presentation
+   The program should output a list of the winning players, including the count of their winning tickets
+   (in brackets next to the player identifier, e.g., {playerId} (winning tickets count)), the amount they have
+   won, and the house profit, all printed to the console
+   </value>
+  </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>OVERVIEW
+
+This solution contains 4 projects
+Lottery.ConsoleClient, Lottery.DesktopClient,
+Lottery.Lib and Lottery.Test project. 
+
+1 . Console Client
+    Simple console application that consumes Lib
+    implementations and follows the main lottery
+    workflow.  
+
+2 . DesktopClient
+    Contains 3 tab sections : 
+    • ABOUT     - contains original task requirements
+    • LOTTERY   - actual task visualization
+    • DEV NOTES - additional information and technical
+                  comments.  
+	
+3 . Lottery.Lib 
+    All implementaion logic is here
+	
+3 . Tests
+    Contains unittests of some Lib implementations
+	
+HOW TO USE LOTTERY SECTION
+
+a) User can start new campaign 
+b) User can set up tickets count by clicking
+   + - links are for increasing or using the
+   mouse wheel. Count range is [1,10].
+   
+c) User can start new campaign and the next step
+   is to click GENERATE PLAYERS link. Clicking the
+   link will create Player 1 (with the tickets count)
+   set by the user and automatically will generate 
+   several more CPU players in the range [10,15] including
+   Player 1. Each CPU player will purchase random count 
+   of tickets. After that new player generation will be 
+   restricted.
+d) User now can click DRAW WINNERS link and this will 
+   put campaign in Completed status.
+e) All actions are logged in LOG tab, but user can also
+   explore dashboard tab, where after lottery completion
+   winner ticket results can be explored.
+f) In PROJECTION area user can retrieve projections of 
+   the lottery result.
+   - BY TIER   - retrieves results grouped by tier
+   - BY PLAYER - retrieves results grouped by player
+   - clicking on some of the cards under PROJECTION section
+     will cause load of the child tickets of that parent.
+   
+   
+   
+   </value>
+  </data>
+</root>
